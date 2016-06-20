@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>1899.12.30 00:00:00.000.477,=C:\Users\master\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.218,=C:\Users\master\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.898,C:\push_exemple_delphi\push.dproj=C:\Users\master\Documents\Embarcadero\Studio\Projects\Project2.dproj</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.812,C:\push_exemple_delphi\Unit2.pas=C:\Users\master\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.812,C:\push_exemple_delphi\Unit2.fmx=C:\Users\master\Documents\Embarcadero\Studio\Projects\Unit2.fmx</Transaction>
+  </Transactions>
+	<ActiveMobileDevice>
+		<Pmac iOSSimulator="iPhone5" iOSDevice32="_iosdevice_4c921850a34d95a1d0f8c4e9620ee07b99e3841c"/>
+	</ActiveMobileDevice>
+</BorlandProject>

@@ -1,0 +1,32 @@
+-- phpMyAdmin SQL Dump
+-- version 4.0.10.7
+-- http://www.phpmyadmin.net
+--
+-- Хост: localhost
+-- Время создания: Июн 19 2016 г., 03:57
+-- Версия сервера: 5.5.45-cll-lve
+-- Версия PHP: 5.4.31
+
+SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
+SET time_zone = "+00:00";
+
+--
+-- База данных: `push`
+--
+
+-- --------------------------------------------------------
+
+--
+-- Структура таблицы `users`
+--
+
+CREATE TABLE IF NOT EXISTS `users` (
+  `id` int(20) NOT NULL AUTO_INCREMENT,
+  `Token` varchar(200) NOT NULL,
+  `phone` varchar(255) NOT NULL,
+  `data` datetime NOT NULL,
+  `platform` varchar(255) NOT NULL,
+  `deviceID` varchar(255) NOT NULL,
+  PRIMARY KEY (`id`),
+  UNIQUE KEY `Token` (`Token`)
+) ENGINE=MyISAM  DEFAULT CHARSET=latin1 AUTO_INCREMENT=5 ;
