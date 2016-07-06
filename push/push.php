@@ -37,7 +37,7 @@
 		}
 	}
 	mysqli_close($conn);
-	$message = array("body" => " Тестовое сообщение",
+	$message = array("message" => " Тестовое сообщение",
 	'title' => 'Заголовок',
 	'vibrate' => 1,
 	'sound' => 1);
